@@ -7,6 +7,10 @@ export default {
     './components/**/*.{html,js}',
   ],
   theme: {
+    fontFamily: {
+      'heading': ["Outfit", "sans-serif"]
+
+    },
     extend: {},
   },
   plugins: [],

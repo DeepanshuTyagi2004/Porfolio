@@ -11,6 +11,7 @@ function App() {
 
   return (
     <>
+      <div className="bg-cover bg-[#161616] fixed w-full h-full z-[-10]"></div>
       <NavBar />
     </>
   )

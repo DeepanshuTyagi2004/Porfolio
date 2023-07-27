@@ -1,3 +1,6 @@
 import logo from "./logo-mine.png";
-
-export {logo};
+import contact from "./contact.svg";
+export {
+  logo,
+  contact
+};
