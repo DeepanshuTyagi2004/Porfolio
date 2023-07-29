@@ -15,7 +15,7 @@ function NavBar({}) {
               Deepanshu
             </p>
           </div>
-          <div className="flex gap-2 sm:gap-4 px-2 sm:px-6 py-4 items-center justify-center text-gray-400 font-bold text-[16px] font-heading transition-colors">
+          <div className="gap-2 sm:gap-4 px-2 sm:px-6 py-4 items-center justify-center text-gray-400 font-bold text-[16px] font-heading transition-colors flex md:hidden ">
             <a
               className="cursor-pointer hover:text-white "
               href="https://www.linkedin.com/in/deepanshu-tyagi-2765a9211/"
@@ -31,9 +31,34 @@ function NavBar({}) {
             >
               Github
             </a>
-            <p className="hidden sm:block">/</p>
+            <p className="">/</p>
             <a
-              className="cursor-pointer hover:text-white sm:block hidden"
+              className="cursor-pointer hover:text-white"
+              href="https://twitter.com/0xdeepanshu0"
+              target="_blank"
+            >
+              Twitter
+            </a>
+          </div>
+          <div className="gap-2 sm:gap-4 px-2 sm:px-6 py-4 items-center justify-center text-gray-400 font-bold text-[16px] font-heading transition-colors hidden md:flex ">
+            <a
+              className="cursor-pointer hover:text-white "
+              href="https://www.linkedin.com/in/deepanshu-tyagi-2765a9211/"
+              target="_blank"
+            >
+              LinkedIn
+            </a>
+            <p className="">/</p>
+            <a
+              className="cursor-pointer hover:text-white "
+              href="https://github.com/DeepanshuTyagi2004"
+              target="_blank"
+            >
+              Github
+            </a>
+            <p className="">/</p>
+            <a
+              className="cursor-pointer hover:text-white"
               href="https://twitter.com/0xdeepanshu0"
               target="_blank"
             >
