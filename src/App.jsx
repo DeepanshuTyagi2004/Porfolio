@@ -10,10 +10,11 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div className="bg-cover bg-[#161616] fixed w-full h-full z-[-10]"></div>
+    <ParallaxProvider>
+      <div className="bg-cover bg-black fixed w-full h-full z-[-10]"></div>
       <NavBar />
-    </>
+      <Test />
+    </ParallaxProvider>
   )
 }
 
