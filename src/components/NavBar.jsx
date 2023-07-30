@@ -80,19 +80,19 @@ function NavBar({}) {
           </div>
         </div>
       </div>
-      <div className="fixed w-full py-2 px-2 flex md:hidden items-center justify-end bottom-0 z-[99]">
+      <div className="fixed w-full py-2 flex md:hidden items-center justify-end bottom-0 z-[99]">
         <img
           src={menu ? menuOp : menuCl}
           onClick={() => setMenu(!menu)}
           alt="menu-open"
-          className="w-7 h-7 rounded-full object-contain"
+          className="w-9 h-9 rounded-full object-contain mx-2"
         />
         <div
-          className={`absolute w-full py-10 ${
+          className={`absolute w-full ${
             menu ? 'flex' : 'hidden'
-          } items-center justify-end bottom-10 `}
+          } items-center justify-end bottom-10 z-[99] `}
         >
-          <div className="flex flex-col font-heading align-baseline gap-2 text-gray-400 bg-black rounded-3xl pr-28">
+          <div className="flex flex-col font-heading align-baseline gap-2 text-gray-400 bg-black rounded-2xl pr-24 p-5">
             <a
               href="/"
               className="hover:text-white transition-colors"
@@ -138,7 +138,7 @@ function NavBar({}) {
           </div>
         </div>
       </div>
-      <div className="fixed w-full px-32 py-10 hidden md:flex items-center justify-end bottom-0">
+      <div className="fixed w-full px-32 py-10 hidden md:flex items-center justify-end bottom-0 z-[99]">
         <div className="flex flex-col font-heading align-baseline gap-2 text-gray-400">
           <a href="/" className="hover:text-white transition-colors">
             Home
