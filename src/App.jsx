@@ -5,6 +5,7 @@ import Test from './components/test'
 import './App.css'
 import { ParallaxProvider } from 'react-scroll-parallax'
 import NavBar from './components/NavBar'
+import Hero from './components/Hero'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,8 @@ function App() {
     <ParallaxProvider>
       <div className="bg-cover bg-black fixed w-full h-full z-[-10]"></div>
       <NavBar />
-      <Test />
+      {/* <Test /> */}
+      <Hero/>
     </ParallaxProvider>
   )
 }
