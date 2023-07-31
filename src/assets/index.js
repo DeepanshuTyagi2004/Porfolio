@@ -5,6 +5,7 @@ import github from "./github.svg";
 import twitter from "./twitter.png";
 import menuOp from "./menu-open.svg";
 import menuCl from "./menu-close.svg";
+import profile from "./Profile.jpeg";
 export {
   logo,
   contact,
@@ -12,5 +13,6 @@ export {
   github,
   twitter,
   menuCl,
-  menuOp
+  menuOp,
+  profile
 };

@@ -1,10 +1,11 @@
 import { contact, linkedIn, github, twitter, menuOp, menuCl } from '../assets'
 import { useState } from 'react'
+import { styles } from '../styles'
 function NavBar({}) {
   const [menu, setMenu] = useState(false)
   return (
-    <nav className="w-full z-[99]">
-      <div className="flex items-center px-6 py-4 w-full bg-black opacity-100">
+    <nav className="z-[99]">
+      <div className={`${styles.paddingX} flex items-center px-6 py-4 w-full bg-black opacity-100`}>
         <div className=" w-full flex items-center justify-between max-w-5xl mx-auto border-b-2 border-[#242424] pb-4">
           <div className="flex justify-center items-center cursor-pointer">
             <img

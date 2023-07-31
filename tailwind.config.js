@@ -8,8 +8,9 @@ export default {
   ],
   theme: {
     fontFamily: {
-      'heading': ["Outfit", "sans-serif"]
-
+      'heading': ["Outfit", "sans-serif"],
+      'signature': ["Alex Brush", "cursive"],
+      'sub-text': ["Borel", "cursive"],
     },
     extend: {},
   },
